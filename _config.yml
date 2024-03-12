@@ -1,3 +1,7 @@
 theme: jekyll-theme-minimal
 title: BTS CIEL-IR du Lycée Simone de Beauvoir de Gragnague (31)
 description: test
+
+nav:
+  - Home : index.md
+  - Pointeurs : cpp/pointeurs.md

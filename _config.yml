@@ -1,14 +1,64 @@
-theme: jekyll-theme-minimal
-title: BTS CIEL-IR du Lycée Simone de Beauvoir de Gragnague (31)
-description: test
+site_name: BTS CIEL-IR, Gragnague
+repo_url: https://github.com/Lycee-Simone-de-Beauvoir/Lycee-Simone-de-Beauvoir.github.io
+repo_name: lycee-simone-de-beauvoir.github.io
+theme:
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - content.code.annotate
+    - content.code.copy
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary : indigo
+      accent : indigo
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary : indigo
+      accent : indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
 
-lsi: false
-safe: true
-source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+copyright: Ce site ainsi que tout son contenu est mis à disposition selon les termes de la <a href="https://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</a>.
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true

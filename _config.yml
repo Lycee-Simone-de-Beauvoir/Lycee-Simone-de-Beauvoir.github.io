@@ -5,3 +5,5 @@ theme: jekyll-theme-minimal
 title: BTS CIEL-IR du Lycée Simone de Beauvoir de Gragnague (31)
 description: test
 copyright: Ce site ainsi que tout son contenu est mis à disposition selon les termes de la <a href="https://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</a>.
+nav:
+  - Home : README.md
